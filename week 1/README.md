@@ -28,8 +28,10 @@
 1. 20GB -> /
 2. 5GB -> /storage
 3. (remaining) -> swab area
+
 ![](../assets/debian15.png)
 - Sesudah partition, klik Next hingga Finish.
+
 ![](../assets/debian16.png)
 ![](../assets/debian17.png)
 ![](../assets/debian18.png)
