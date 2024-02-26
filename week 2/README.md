@@ -1,8 +1,10 @@
+
+
 `Tugas ini merupakan tugas mata kuliah Konsep Jaringan yang dibimbing oleh Bpk. Dr. Ferry Astika Saputra,ST, M.Sc`
 
 ## Table of Contents
 - [Debian Directory](#debian-directory)
-- [Presentation](#presentation)
+- [Presentation](/week%202/presentation.md)
 
 # Debian Directory
 
@@ -39,5 +41,3 @@ Penjelasan :
 - `/usr`: Direktori ini berisi sebagian besar program, library, dan dokumen sistem. Struktur dalam /usr biasanya mirip dengan struktur sistem file root (/), tetapi lebih terorganisir untuk menyimpan file biner dan sumber daya aplikasi.
 
 - `/var`: Direktori ini berisi data variabel, termasuk log file, cache, dan file yang dapat berubah ukuran (seperti file database). Ini sering digunakan untuk data yang berubah selama runtime sistem.
-
-# Presentation
