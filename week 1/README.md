@@ -1,5 +1,9 @@
 `Tugas ini merupakan tugas mata kuliah Konsep Jaringan yang dibimbing oleh Bpk. Dr. Ferry Astika Saputra,ST, M.Sc`
 
+## Table of Contents
+- [Installing Debian](#installing-debian-using-virtualbox)
+- [Assignments](#tugas-week-1)
+
 # Installing Debian using VirtualBox
 
 1. **VirtualBox Section**
