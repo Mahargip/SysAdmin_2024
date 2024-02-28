@@ -5,6 +5,7 @@
 ## Table of Contents
 - [Debian Directory](#debian-directory)
 - [Presentation](/week%202/presentation.md)
+- [Connections](#connection)
 
 # Debian Directory
 
@@ -41,3 +42,7 @@ Penjelasan :
 - `/usr`: Direktori ini berisi sebagian besar program, library, dan dokumen sistem. Struktur dalam /usr biasanya mirip dengan struktur sistem file root (/), tetapi lebih terorganisir untuk menyimpan file biner dan sumber daya aplikasi.
 
 - `/var`: Direktori ini berisi data variabel, termasuk log file, cache, dan file yang dapat berubah ukuran (seperti file database). Ini sering digunakan untuk data yang berubah selama runtime sistem.
+
+
+# Connection DHCP to Manual
+
