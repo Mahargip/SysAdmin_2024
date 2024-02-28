@@ -213,13 +213,13 @@ deb adalah kependekan dari Debian. Untuk mendistribusikan softwarenya, Debian me
 
 GDebi merupakan graphical utility dimana dapat melakukan instalasi package dengan format .deb. Untuk install GDebi lakukan apt update && apt install gdebi menggunakan mode "su". Untuk menggunakan GDebi klik kanan pada file .deb lalu klik "Open with gdebi"
 
-![](./assets/gdebi1.PNG)
+![](../assets/gdebi1.png)
 
 ---
 
 Kemudian klik Install Package untuk menginstall Package.
 
-![](/assets/gdebi2.PNG)
+![](../assets/gdebi2.png)
 
 Lalu tunggu hingga proses selesai.
 
@@ -227,7 +227,7 @@ Lalu tunggu hingga proses selesai.
 
 Untuk menghapus package klik Remove Package
 
-![](/assets/gdebi3.PNG)
+![](../assets/gdebi3.png)
 
 ---
 
