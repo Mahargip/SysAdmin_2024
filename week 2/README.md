@@ -46,3 +46,14 @@ Penjelasan :
 
 # Connection DHCP to Manual
 
+Pertama-tama, mari kita cek ip address kita yang pertama dengan `ip addr`
+
+![](../assets/dhcp1.png)
+
+Jika sudah, kita masuk ke _setting_ dan menambahkan profile connection wifi baru dengan berikut :
+
+![](../assets/dhcp2.png)
+
+Setelah kita simpan, klik profile baru tersebut lalu kita cek ulang ip kita menggunakan `ip addr`
+
+![](../assets/dhcp3.png)
