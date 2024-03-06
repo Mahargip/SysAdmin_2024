@@ -5,7 +5,7 @@
 ## Table of Contents
 - [Debian Directory](#debian-directory)
 - [Presentation](/week%202/presentation.md)
-- [Connections](#connection)
+- [DHCP](#connection-dhcp-to-manual)
 
 # Debian Directory
 
