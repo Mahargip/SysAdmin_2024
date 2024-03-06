@@ -21,7 +21,7 @@
 ![](../assets/week3-4.png)
 
 - Pilih menu IP dan klik menu DHCP Server. Lalu klik DHCP Setup dan masukkan dengan ketentuan berikut :
-<br>
+
 1. DHCP Server Interface = bridge1
 2. DHCP Address Space = 192.168.3.0/24
 3. Gateway for DHCP Network = 192.168.3.1
