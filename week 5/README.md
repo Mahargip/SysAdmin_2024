@@ -3,134 +3,54 @@
 `Tugas ini merupakan tugas mata kuliah Konsep Jaringan yang dibimbing oleh Bpk. Dr. Ferry Astika Saputra,ST, M.Sc`
 
 ## Table of Contents
-- [NTP Client](#installing-ntp-client)
-- [Apache-FM](#install-apache-fm)
-- [PHP 8.2](#install-php-8.2)
-- [MariaDB](#install-mariadb)
-- [Email System](#email-system)
-- [Dovecot Server](#install-dovecot-server)
-- [Final Check](#last-check)
+- [DNS Setup](#dns-setup)
+- [Sending Email](#sending-email)
 
 
 
+# DNS Setup Kelompok 3
 
+`path: /etc/bind/...`
 
-# Installing NTP Client
+## named.conf
+![](../assets/week9-1.png)
 
-Lakukan instalasi paket layanan sinkronisasi waktu
+## named.conf.local
+![](../assets/week9-2.png)
 
-![](../assets/week5-1.png)
+## named.conf.options
+![](../assets/week9-3.png)
 
-Pastikan konfigurasi timezone ke Asia/Jakarta
+![](../assets/week9-4.png)
 
-![](../assets/week5-2.png)
+<hr>
 
-Melakukan konfigurasi Real Time Clock (RTC) untuk merefer ke UTC (Coordinated Universal Time)
+`path: /var/lib/bind/...`
 
+## db.kelompok3.local
+![](../assets/week9-5.png)
 
-![](../assets/week5-3.png)
+## db.kelompok3.local.inv
+![](../assets/week9-6.png)
 
-Mengaktifkan NTP Client untuk sinkronisasi waktu
+<hr>
 
-![](../assets/week5-4.png)
+`path: /etc/...`
 
-Menyunting file timesyncd.conf untuk mengarah ke NTP server terdekat untuk mendapatkan waktu 
-delay terpendek. Biasanya setiap organisasi atau negara mempunyai NTP Server sendiri
+## resolv.conf
+![](../assets/week9-7.png) 
 
-![](../assets/week5-6.png)
+## Setting connection profile
 
-![](../assets/week5-5.png)
+![](../assets/week9-8.png) 
 
-Restart layanan sinkronisasi waktu dan pastikan layanan berjalan dengan benar
+# Sending Email
 
-![](../assets/week5-7.png)
+## To ourselves
 
-
-# Install Apache-FM
-
-Installing Apache2
-
-![](../assets/week5-8.png)
-
-Konfigurasi Apache2
-
-`nano /etc/apache2/conf-enabled/security.conf`
-
-`line 12 : change`
-
-`ServerTokens Prod`
-
-<br>
-
-`nano vi /etc/apache2/mods-enabled/dir.conf`
-
-`add file name that it can access only with directory's name`
-
-`DirectoryIndex index.html index.htm`
-
-<br>
-
-`nano /etc/apache2/apache2.conf`
-
-`line 70 : add to specify server name`
-
-`ServerName www.kelompok3.com`
-
-<br>
-
-`nano /etc/apache2/sites-enabled/000-default.conf`
-
-`line 11 : change to webmaster's email`
-
-`ServerAdmin webmaster@kelompok3.com`
-
-`systemctl reload apache2`
-
-![](../assets/week5-9.png)
-
-Test ke web browser
-
-![](../assets/week5-10.png)
-
-
-# Install PHP 8.2
-
-![](../assets/week5-11.png)
-
-![](../assets/week5-12.png)
-
-![](../assets/week5-13.png)
-
-# Install PHP-FM
-
-![](../assets/week5-14.png)
-
-![](../assets/week5-15.png)
-
-![](../assets/week5-16.png)
-
-# Install MariaDB
-
-![](../assets/week5-17.png)
-
-![](../assets/week5-18.png)
-
-# Email System
-
-![](../assets/week5-19.png)
-
-![](../assets/week5-20.png)
-
-![](../assets/week5-21.png)
-
-# Install Dovecot Server
-
-![](../assets/week5-22.png)
-
-![](../assets/week5-23.png)
-
-## Last Check
-
-![](../assets/week5-24.png)
-
-![](../assets/week5-25.png)
+1. Open _Evolution_ in the Menu.
+2. Create a new account with the address is your ip. (192.168.3.10)
+3. Setting your profile. (Full name, email, etc)
+4. Open cmd and type `sudo telnet mail.kelompok3.local 25`
+5. Send an email to yourself in the Evolution app.
+6. Done.
