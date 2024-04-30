@@ -1,4 +1,3 @@
-![Screenshot 2024-04-30 090951](https://github.com/Mahargip/SysAdmin_2024/assets/114201452/ef94d5f8-99dd-4349-a3f4-1386b0b02df6)
 
 `Tugas ini merupakan tugas mata kuliah Konsep Jaringan yang dibimbing oleh Bpk. Dr. Ferry Astika Saputra,ST, M.Sc`
 
